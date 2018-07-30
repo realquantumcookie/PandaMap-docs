@@ -16,3 +16,17 @@
 
 ## APP预览
 ![APP界面](../../static/APP_Design.png)
+
+## 代码规则
+### JS编码规则
+1. JS函数命名, 变量命名使用小驼峰命名法. 例子:
+   
+```javascript
+function getRemoteServerData(remoteURL, dataContainer)
+{
+    return null;
+}
+```
+
+2. 所有大括号换行, 不与函数声明, if/while/for语句写在一行. (例子见上)
+3. 不同应用模块需要用不同的JS文件分离, 严禁多个模块的逻辑写在一个文件中的情况发生.
